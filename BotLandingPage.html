@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Bot - The Future of Robotics</title>
+	<link rel="stylesheet" type="text/css" href="theme.css">
+	<link href='http://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
+	
+	
+	<script src="jquery-1.11.2.min.js"></script>
+	<script src="jquery.easing.1.3.js"></script>
+	
+
+	<script>
+		$(function() {
+
+			// catch all clicks on a tags
+			$("a").click(function() {
+
+				// check if has hash
+				if(this.hash){
+
+					// get rid of the # sign
+					var hash = this.hash.substr(1); 
+					
+					// get the position of the <a name>
+					var $toElement = $("a[name = "+hash+"]");
+					var toPosition = $toElement.position().top; 
+					
+					// scroll/animate to that element
+					$("body,html").animate({
+
+						scrollTop : toPosition
+
+					},3000,"easeOutExpo");
+					
+					// don't do the jump
+					return false;
+				}
+			});
+			
+			if(location.hash) {
+
+					var hash = location.hash;
+					window.scroll(0,0);
+					$("a[href="+hash+"]").click();
+				}
+		});
+
+	</script>
+
+	 <script type="text/javascript">
+
+	// 	function onHover()
+	// 	{
+	// 	    $("#boticon").attr('src', 'http://i.imgur.com/bcH6J1J.gif');
+	// 	}
+
+	// 	function offHover()
+	// 	{
+	// 	    $("#boticon").attr('src', 'http://i.imgur.com/CDenreI.png');
+	// 	}
+
+	// </script>
+
+
+
+	</head>
+	<body>
+		
+
+
+			<div id="header">
+				<div id="headingcontent">
+					<div id="headingimage">
+						<a href="#" id="home">
+						<img id="boticon" src="boticon.png" <!-- onmouseover="onHover();" onmouseout="offHover();" -->
+						</a>
+						<div id="menuitems">
+							<table style="width:100%">
+							  <tr>
+
+							  	<td id="FartherLeftofBetaButton"><strong><a href="BotBeta.html">BETA TEST</a></strong></td>
+							    <td id="FarLeftofBetaButton"><strong><a href="BotContactUs.html">CONTACT US</a></strong></td>
+							    <td id="MidofBetaButton"><strong><a href="BotTeamPage.html">TEAM</a></strong></td>
+							    <td id="LeftofBetaButton"><strong><a href="http://botrobots.tumblr.com/">BLOG</a></strong></td>
+							    <td id="BetaButton" onclick="location.href='BotPreOrder.html'"><strong><a href="BotPreOrder.html">PRE-ORDER NOW</a></strong></td> 
+							    
+							    							    
+
+
+							  </tr>
+	  						</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section>
+				<div id="maincontentwrapper">
+					
+					<div id="firstsection">
+						<p><img id="textlogo" src="texticon.png"></p>
+						<p id="tagline">The future of drones is in sight</p>
+						<p id="tagline2">Introducing the Bot <em>INFINITY</em></p>
+						<p id="tagline3">The only drone with no limits</p>
+						<p id="tagline4">Coming Soon</p>
+						<p id="emailform"> 
+							<form action="action_page.php">
+								<input type="text" name="email" class="mytext" placeholder="Enter email address">
+								<button> Get Project Updates</button>
+							</form>
+						</p>
+						<img id="phonetemplate" src="PHONE_GIF_ONE.gif">
+						<img id="videobutton" src="video_button.png">
+
+						<div id="firstblock">
+							<p id="clickinstructions">CLICK TO EXPLORE</p>
+							<!--<img id="colormation" src="http://i.imgur.com/ko4Vg0q.png">-->
+							<div id="buttonrow">
+								<a href="#quadscroll"><div id="scrollbutton"></div></a>
+								<a href="#cellscroll"><div id="scrollbutton2"></div></a>
+								<a href="#osscroll"><div id="scrollbutton3"></div></a>
+								<a href="#camerascroll"><div id="scrollbutton4"></div></a>
+								<a href="#weatherscroll"><div id="scrollbutton5"></div></a>
+								<a href="#navscroll"><div id="scrollbutton6"></div></a>
+								<a href="#vrscroll"><div id="scrollbutton7"></div></a>
+								<a href="#wifiscroll"><div id="scrollbutton8"></div></a>
+								<a href="#trackscroll"><div id="scrollbutton9"></div></a>
+							</div>
+							
+						</div>
+						
+						<a name="quadscroll">
+						<p id="quadtagline">The most advanced personal flying experience.</p> 
+						<p id="quadtagline2">In one package.</p>
+						<p><img id="celltower"src="quad_icon.png"></p>
+						<p id="quadtagbody">Combining the best in engineering and design is difficult. In creating the Bot <em>INFINITY</em> we used
+						cutting-edge technology to produce the ultimate personal drone.</p>
+						
+						<a name="cellscroll">
+						<div id="cellwrapper">
+							<p id="celltagline">Boundless flying.</p> 
+							<p id="celltagline2">Boundless possibilities.</p>
+							<p><img id="celltower2"src="cell_icon_gif.gif"></p>
+							<p id="celltagbody">Making the best personal drone in the world required rethinking the status quo. That's why with the Bot
+							<em>INFINITY</em> we removed limits on operational range. The <em>INFINITY</em>'s only limit is your imagination.</p>
+						</div>
+						
+						<a name="osscroll">
+						<p id="ostagline">The power to program the skies.</p> 
+						<p id="ostagline2">At your fingertips.</p>
+						<p><img id="celltower3"src="os_gif.gif"></p>
+						<p id="ostagbody">Incredible hardware requires incredible software. The <em>INFINITY</em>'s Drone OS provides a platform
+						 for connecting the ideas of innovative developers with the people who need them most.</p>
+
+						 <a name="camerascroll">
+						 <div id="camerawrapper">
+							<p id="cameratagline">Everything you want to see.</p> 
+							<p id="cameratagline2">Nothing you don't.</p>
+							<p><img id="celltower4"src="camera_gif.gif"></p>
+							<p id="cameratagbody">With an uninterrupted 360 degree field of view, the <em>INFINITY</em>'s revolutionary camera gives you
+							 unparalleled perspective. Stream live 1080p video straight to your smart device, capture pictures from any (or every) angle, or
+							  use the headset for a fully immersive first-person experience.</p>
+						</div>
+
+						<p id="FlightGifTagline">Flight. In the palm of your hand.</p>
+						<p><img id="FlightGif" src="PHONE_GIF_TWO.gif"></p>
+
+						<a name="weatherscroll">
+						<div id="weatherwrapper">
+							<p id="weathertagline">Effortless function.</p> 
+							<p id="weathertagline2">Whatever the weather.</p>
+							<p><img id="celltower5"src="weather_icon.png"></p>
+							<p id="weathertagbody">Wind, rain, sand, or snow. The <em>INFINITY</em>'s durable construction and unmatched stability
+							 allow it to work perfectly even in the harshest environments. Never let the conditions be a factor again.</p>
+						</div>
+
+						<a name="navscroll">
+						<p id="navtagline">Innovative automation</p> 
+						<p id="navtagline2">meets intuitive navigation.</p>
+						<p><img id="celltower6"src="compass_gif.gif"></p>
+						<p id="navtagbody">With live waypointing, flying a personal drone has never been easier. Just tap where you want to go, and the <em>INFINITY</em>
+						 will follow. Don't worry about crashing - Bot's <em>AirAware</em> technology will keep you safely aloft. And the best
+						  part<span>?</span> No base station required.</p>
+
+						<a name="vrscroll">
+						<div id="vrwrapper">
+							<p id="vrtagline">Step into flight.</p> 
+							<p id="vrtagline2">The freedom of first person.</p>
+							<p><img id="celltower7"src="vr_gif.gif"></p>
+							<p id="vrtagbody">Dreams don't come close. With the Bot <em>INFINITY</em> headset you can fly like you always wished you could. Using
+							 innovative low-latency mirroring technology, the <em>INFINITY</em> becomes your second set of eyes. Turn your head and the camera
+							  turns as well. You'll never want to fly another way again.</p>
+						</div>
+
+						<a name="wifiscroll">
+						<p id="wifitagline">No signal<span>?</span></p> 
+						<p id="wifitagline2">No problem.</p>
+						<p><img id="celltower8"src="wifi_gif.gif"></p>
+						<p id="wifitagbody">In the middle of the Gobi desert and can't get a bar<span>?</span> We've got your back. The Bot <em>INFINITY</em> comes with a built-in 5 km range Wi-Fi backup system, no extra equipment required. If the <em>INFINITY</em> loses its network connection, it will
+						  seamlessly switch over to Wi-Fi - the <em>INFINITY</em> works wherever you do.</p>
+
+						<a name="trackscroll">
+						<div id="trackwrapper">
+							<p id="tracktagline">Sometimes to lead</p> 
+							<p id="tracktagline2">you have to follow.</p>
+							<p><img id="celltower9"src="tracking_gif.gif"></p>
+							<p id="tracktagbody">Love action sports<span>?</span> We do too. Whether you want to wear our <em>SportWristband</em> or your own smartwatch, using the <em>INFINITY</em>'s <em>FollowMe</em> feature is as easy as tap, two, three. Height, Angle, Distance. And <em>AirAware</em> makes it so you never have to worry about crashing -- you can focus more on your shot, and less on your drone.</p>
+						</div>
+
+						<div id="teambackground">
+							<a href="BotTeamPage.html"><div id="teambackgroundbutton"><p id="teamlink">Learn About The Team</p></div></a>
+						</div>
+
+						<div id="endslide">
+							<p id="endinfoshare">SHARE</p>	
+							<div class="socialbutton" id="sharebuttons">
+							</div>
+							<div class="socialbutton" id="sharebuttons2">
+							</div>
+							<div class="socialbutton" id="sharebuttons3">
+							</div>
+							<div class="socialbutton" id="sharebuttons4">
+							</div>
+							<div class="socialbutton" id="sharebuttons5">
+							</div>
+							<div id="copyrightinfo">
+							Copyright 2014 Bot, All Rights Reserved  \\ Patents Pending
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+		
+
+
+	</body>
+</html>

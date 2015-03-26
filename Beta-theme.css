@@ -1,0 +1,857 @@
+/* Pre-Order Page Style Sheet */
+/******************************************************************************************************/
+/******************************************************************************************************/
+/******************************************************************************************************/
+/******************************************************************************************************/
+
+
+html
+{
+	min-width: 1000px; 
+}
+
+
+body /* Page Body */
+{
+	width: 100%;
+	height: 100%; 
+	margin: auto;
+	height: auto;
+
+
+}
+
+
+#header /* Menu Bar */
+{
+	position: fixed;
+	background-color: #ffffff;
+	color: #000000;
+	
+	opacity: .9;
+
+	width: auto;
+	height: auto;
+
+	min-height: 155px;
+	min-width: 100%;
+
+	z-index: 100;
+}
+
+#boticon
+{
+}
+
+#boticon:hover
+{
+	
+	/*background-image: url("http://i.imgur.com/bcH6J1J.gif");
+	background-repeat: no-repeat;
+	background-size: 60%;*/
+
+}
+
+
+#headingcontent /* Content in Menu Bar */
+{	
+}
+
+
+#headingimage /* The Bot Logo Icon */
+{
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+img
+{
+	position: fixed;
+
+	display: inline-block;
+	
+	height: auto; 
+	width: auto; 
+	/* icon logo should be kept to a 0.809 width:height ratio // 85-105 base ratio*/
+
+	min-height: 145px;
+	min-width: 117px;
+
+	max-height: 145px;
+	max-width: 117px;
+	
+	padding-left: 110px;
+	padding-top: 15px;	
+
+	/*background-image: url("http://i.imgur.com/CDenreI.png");
+	background-repeat: no-repeat;
+	background-size: 100%;*/
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+#menuitems /* The Listed Menu Items */
+{
+	position: static;
+	display: inline-block;
+	font-size: 14px; 
+	font-family: "Trebuchet MS", Helvetica, sans-serif; 
+	padding-left: 40%;
+	padding-top: 4%;
+}
+
+
+table
+{
+	position: absolute;
+	padding-left: 20%;
+}
+
+
+td
+{
+	display: inline-block;
+	padding-left: 8%; 
+}
+
+
+#BetaButton
+{
+	color: #ffffff;
+	background-color: #000000;
+	
+	border-radius: 5px;
+	width: 126px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#BetaButton a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#BetaButton:hover
+{
+	opacity: .5; 
+}
+
+
+#LeftofBetaButton
+{
+	color: #000000;
+	background-color: #ffffff;
+	
+	border-radius: 5px;
+	width: 40px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+
+	margin-left: -20px;
+	margin-right: 20px;
+}
+
+#LeftofBetaButton a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+#LeftofBetaButton:hover
+{
+	opacity: .5; 
+}
+
+
+#FarLeftofBetaButton
+{
+	color: #000000;
+	background-color: #ffffff;
+	
+	border-radius: 5px;
+	width: 100px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	margin-left: -90px;
+	padding-right: 15px;
+
+}
+
+#FarLeftofBetaButton a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+
+#FarLeftofBetaButton:hover
+{
+	opacity: .5;
+}
+
+
+#FartherLeftofBetaButton
+{
+	color: #000000;
+	background-color: #ffffff;
+	
+	border-radius: 5px;
+	width: 100px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	margin-left: -160px;
+	/*padding-right: 100px;*/
+	margin-right: 90px;
+
+	/*border: 2px solid black;*/
+}
+
+#FartherLeftofBetaButton a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+#FartherLeftofBetaButton:hover
+{
+	opacity: .5;
+}
+
+
+#MidofBetaButton
+{
+	color: #000000;
+	background-color: #ffffff;
+	
+	border-radius: 5px;
+	width: 40px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+
+	
+	margin-right: 20px;
+}
+
+#MidofBetaButton a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+#MidofBetaButton:hover
+{
+	opacity: .5;
+}
+
+
+/******************************************************************************************************/
+/******************************************************************************************************/
+
+
+#maincontentwrapper
+{	
+}
+
+#firstsection
+{
+}
+
+#betaform
+{
+	width: 38%;
+	height: 2290px;
+
+	margin-left: 21.5%;
+	margin-top: 180px;
+	
+	position: absolute;
+
+	border-radius: 2px;
+
+	background-color: #ffffff;
+
+	/*border: 1px solid blue;*/
+
+	display: inline;
+
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 15px;
+
+}
+
+#benefitform
+{
+	width: 20%;
+	height: 530px;
+
+	margin-left: 60%;
+	margin-top: 200px;
+	
+	position: fixed;
+
+	border-radius: 2px;
+
+	background-color: #000000;
+	color: #ffffff;
+
+	/*border: 1px solid blue;*/
+
+	display: inline;
+
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 15px;
+
+}
+
+
+/******************************************************************************************************/
+
+
+#testerheading
+{
+	font-size: 24px;
+	margin-top: -5px;
+	margin-left: 3%;
+
+	
+}
+
+/******************************************************************************************************/
+
+
+#subtesterheading
+{
+	font-size: 15px;
+	
+	margin-left: 3%
+}
+
+/******************************************************************************************************/
+
+
+#minisubtesterheading
+{
+	font-size: 13px;
+	
+	margin-left: 3%
+}
+
+/******************************************************************************************************/
+
+
+#minisubtesterheading2
+{
+	font-size: 13px;
+	
+	margin-left: 0%;
+
+	padding-top: 5px;
+}
+
+/******************************************************************************************************/
+
+#nameformblock
+{
+
+}
+
+#nameform
+{
+	margin-left: 3%;
+}
+
+.formtext
+{
+	height: 50px;
+	width: 350px;
+	font-size: 15px;
+	font-family: "Futura", Helvetica, sans-serif;
+
+	padding-left: 15px;
+	outline: none;
+
+
+}
+
+/******************************************************************************************************/
+
+
+#emailformblock
+{
+	margin-top: 20px;
+}
+
+#emailform
+{
+	margin-left: 3%;
+}
+
+
+/******************************************************************************************************/
+
+
+#phoneformblock
+{
+	margin-top: 20px;
+}
+
+#phoneform
+{
+	margin-left: 3%;
+}
+
+
+/******************************************************************************************************/
+
+
+#occformblock
+{
+	margin-top: 20px;
+}
+
+#occform
+{
+	margin-left: 3%;
+}
+
+/******************************************************************************************************/
+
+
+#ageformblock
+{
+	margin-top: 20px;
+}
+
+#ageform
+{
+	margin-left: 3%;
+}
+
+/******************************************************************************************************/
+
+
+#addressoneformblock
+{
+	margin-top: 20px;
+}
+
+#addressoneform
+{
+	margin-left: 3%;
+}
+
+/******************************************************************************************************/
+
+
+#addresstwoformblock
+{
+	margin-top: 20px;
+}
+
+#addresstwoform
+{
+	margin-left: 3%;
+}
+
+/******************************************************************************************************/
+
+
+#cityformblock
+{
+	margin-top: 20px;
+}
+
+#cityform
+{
+	margin-left: 3%;
+}
+
+/******************************************************************************************************/
+
+
+#stateformblock
+{
+	margin-top: 20px;
+}
+
+#stateform
+{
+	margin-left: 3%;
+}
+
+/******************************************************************************************************/
+
+
+#zipformblock
+{
+	margin-top: 20px;
+}
+
+#zipform
+{
+	margin-left: 3%;
+}
+
+/******************************************************************************************************/
+
+
+#countryformblock
+{
+	margin-top: 20px;
+}
+
+#countryform
+{
+	margin-left: 3%;
+}
+
+.countrytext
+{
+	/*background-image: url("option_arrow.png");
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: right;
+	*/
+	height: 50px;
+	width: 350px;
+	font-size: 15px;
+	font-family: "Futura", Helvetica, sans-serif;
+
+	padding-left: 15px;
+	outline: none;
+}
+
+/*.countrytext:hover
+{
+	opacity: .85;
+}
+#countryform:hover
+{
+	opacity: .7;
+}*/
+
+/******************************************************************************************************/
+
+
+#yearsformblock
+{
+	margin-top: 10px;
+}
+
+#yearsform
+{
+	margin-left: 3%;
+	font-size: 12px;
+
+}
+
+/******************************************************************************************************/
+
+
+#yeardescribeformblock
+{
+	margin-top: 20px;
+}
+
+#yeardescribeform
+{
+	margin-left: 3%;
+}
+
+.yeartext
+{
+
+	height: 200px;
+	width: 350px;
+	font-size: 15px;
+	font-family: "Futura", Helvetica, sans-serif;
+
+	padding-left: 15px;
+	outline: none;
+}
+
+/******************************************************************************************************/
+
+
+.addtext
+{
+
+	height: 220px;
+	width: 350px;
+	font-size: 15px;
+	font-family: "Futura", Helvetica, sans-serif;
+
+	padding-left: 15px;
+	outline: none;
+}
+
+
+/******************************************************************************************************/
+/******************************************************************************************************/
+
+
+#benefittitle
+{
+	text-align: center;
+	font-size: 16px;
+	margin-left: -12.5px;
+
+}
+
+
+#benefitunderline
+{
+	text-align: center;
+	font-size: 16px;
+	margin-left: -80.5px;
+	margin-top: -20px;
+	font-family: "Futura", Helvetica, sans-serif;
+
+}
+
+
+/******************************************************************************************************/
+
+
+#benefittable
+{
+	/*border: 3px solid red; */
+	margin-left: -50px;
+	width: 108%;
+	font-size: 13px;
+	margin-top: -10px;
+	font-family: "Futura", Helvetica, sans-serif;
+}
+
+#rowbuffer
+{
+	margin-top: 20px;
+}
+
+
+/******************************************************************************************************/
+
+
+#confirmform
+{
+	
+
+	height: 60px;
+	font-family: "Futura", Helvetica, sans-serif;
+
+	background-color: #000000;
+	color: #ffffff;
+
+	text-align: center;
+
+	padding-top: 16px;
+	padding-right: 4px;
+	margin-left: 3%;
+
+	font-size: 23px;
+
+	/*border: 1px solid blue; */
+
+	height: 50px;
+	width: 350px;
+	
+	padding-left: 15px;
+	outline: none;
+
+	margin-top: 30px;
+
+	text-decoration: none;
+}
+
+#confirmform:hover
+{
+	opacity: .8;
+}
+
+
+/******************************************************************************************************/
+
+
+#copyrightpara
+{
+	margin-top: 75px;
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 10px; 
+	text-align: left;
+	padding-left: 15px;
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#benefitone
+{
+	text-align: center;
+	font-size: 13px;
+	width:80%;
+	margin-left: 15px;
+	padding-top: 15px;
+}
+
+#benefittwo
+{
+	text-align: center;
+	font-size: 13px;
+	width:80%;
+	margin-left: 15px;
+	padding-top: 15px;
+}
+
+#benefitthree
+{
+	text-align: center;
+	font-size: 13px;
+	width:80%;
+	margin-left: 15px;
+	padding-top: 15px;
+}
+
+#benefitfour
+{
+	text-align: center;
+	font-size: 13px;
+	width:80%;
+	margin-left: 6px;
+	padding-top: 15px;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

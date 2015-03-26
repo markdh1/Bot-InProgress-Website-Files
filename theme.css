@@ -1,0 +1,1624 @@
+/* Landing Page Style Sheet */
+/******************************************************************************************************/
+/******************************************************************************************************/
+/******************************************************************************************************/
+/******************************************************************************************************/
+
+
+html
+{
+	min-width: 1000px; 
+}
+
+
+body /* Page Body */
+{
+	width: 100%;
+	height: 100%; 
+	margin: auto;
+	height: auto;	
+}
+
+
+#header /* Menu Bar */
+{
+	position: fixed;
+	background-color: #ffffff;
+	color: #000000;
+	
+	opacity: .9;
+
+	width: auto;
+	height: auto;
+
+	min-height: 155px;
+	min-width: 100%;
+
+	z-index: 100;
+}
+
+#boticon
+{
+}
+
+#boticon:hover
+{
+	
+	/*background-image: url("http://i.imgur.com/bcH6J1J.gif");
+	background-repeat: no-repeat;
+	background-size: 60%;*/
+
+}
+
+
+#headingcontent /* Content in Menu Bar */
+{	
+}
+
+
+#headingimage /* The Bot Logo Icon */
+{
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+img
+{
+	position: fixed;
+
+	display: inline-block;
+	
+	height: auto; 
+	width: auto; 
+	/* icon logo should be kept to a 0.809 width:height ratio // 85-105 base ratio*/
+
+	min-height: 145px;
+	min-width: 117px;
+
+	max-height: 145px;
+	max-width: 117px;
+	
+	padding-left: 110px;
+	padding-top: 15px;	
+
+	/*background-image: url("http://i.imgur.com/CDenreI.png");
+	background-repeat: no-repeat;
+	background-size: 100%;*/
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+#menuitems /* The Listed Menu Items */
+{
+	position: static;
+	display: inline-block;
+	font-size: 14px; 
+	font-family: "Trebuchet MS", Helvetica, sans-serif; 
+	padding-left: 40%;
+	padding-top: 4%;
+}
+
+
+table
+{
+	position: absolute;
+	padding-left: 20%;
+}
+
+
+td
+{
+	display: inline-block;
+	padding-left: 8%; 
+}
+
+
+#BetaButton
+{
+	color: #ffffff;
+	background-color: #000000;
+	
+	border-radius: 5px;
+	width: 126px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#BetaButton a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#BetaButton:hover
+{
+	opacity: .5; 
+}
+
+
+#LeftofBetaButton
+{
+	color: #000000;
+	background-color: #ffffff;
+	
+	border-radius: 5px;
+	width: 40px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+
+	margin-left: -20px;
+	margin-right: 20px;
+}
+
+#LeftofBetaButton a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+#LeftofBetaButton:hover
+{
+	opacity: .5; 
+}
+
+
+#FarLeftofBetaButton
+{
+	color: #000000;
+	background-color: #ffffff;
+	
+	border-radius: 5px;
+	width: 100px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	margin-left: -90px;
+	padding-right: 15px;
+
+}
+
+#FarLeftofBetaButton a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+
+#FarLeftofBetaButton:hover
+{
+	opacity: .5;
+}
+
+
+#FartherLeftofBetaButton
+{
+	color: #000000;
+	background-color: #ffffff;
+	
+	border-radius: 5px;
+	width: 100px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	margin-left: -160px;
+	/*padding-right: 100px;*/
+	margin-right: 90px;
+
+	/*border: 2px solid black;*/
+}
+
+#FartherLeftofBetaButton a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+#FartherLeftofBetaButton:hover
+{
+	opacity: .5;
+}
+
+
+#MidofBetaButton
+{
+	color: #000000;
+	background-color: #ffffff;
+	
+	border-radius: 5px;
+	width: 40px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+
+	
+	margin-right: 20px;
+}
+
+#MidofBetaButton a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+#MidofBetaButton:hover
+{
+	opacity: .5;
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+#firstsection
+{
+	position: absolute;
+	display: inline-block;
+	background-color: #ffffff;
+	height: 1450%;
+	width: 54%;
+	margin-top: 145px;
+	color: #343567;		
+}
+
+
+#maincontentwrapper
+{
+	overflow: scroll;
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+#textlogo
+{
+	position: static;
+
+	display: block;
+	
+	height: auto; 
+	width: auto; 
+	/*icon logo should be kept to a 0.809 
+	width:height ratio // 85-105 base ratio*/
+
+	min-height: 95px;
+	min-width: 146px;
+
+	max-height: 95px;
+	max-width: 146px;
+	
+	padding-left: 95px;
+	padding-top: 5px;	
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+#tagline
+{
+	padding-left: 95px;
+	font-size: 34px;
+	font-weight: 1px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #000000; 
+}
+
+#tagline2
+{
+	margin-top: -30px;
+	padding-left: 95px;
+	font-size: 34px;
+	font-weight: 1px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif; 
+	color: #000000;
+}
+
+#tagline3
+{
+	margin-top: -30px;
+	padding-left: 95px;
+	font-size: 34px;
+	font-weight: 1px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif; 
+	color: #000000;
+}
+
+#tagline4
+{
+	margin-top: -10px;
+	padding-left: 95px;
+	font-size: 30px;
+	font-weight: 1px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif; 
+	color: #000000;
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+form
+{
+	padding-left: 95px;
+	padding-top: 15px;
+}
+
+.mytext
+{
+	
+	width: 440px;
+	min-width: 300px;
+	height: 45px;
+	border-radius: 8px;
+	border: 1px solid black; 
+	font-size: 23px;
+	outline: none;
+}
+
+button
+{
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	margin-left: 8px;
+	/*margin-top: -95px;*/
+	border: 1px solid black;
+	border-radius: 8px;
+	background-color: #ffffff;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 19px;
+}
+
+button:hover
+{
+	background-color: #000000;
+	color: #ffffff;
+	opacity: .9;
+}
+
+input
+{
+	padding-left: 12px;
+
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+#phonetemplate
+{
+	position: relative;
+	min-height: 600px;
+	min-width: 300px;
+	max-height: 600px;
+	max-width: 300px;
+	padding-left: 0%;
+	margin-top: -420px;
+	/*z-index: 1;*/
+	margin-left: 128%;
+	
+}
+
+
+/******************************************************************************************************/
+
+
+#firstblock
+{
+	color: #ffffff;
+	background-color: #000000;
+	width: 184%;
+	height: 420px;
+	margin-top: 180px;
+	padding-left: 10px;
+	position: relative;
+	z-index: 12;
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+#videobutton
+{
+	position: relative;
+	display: inline-block;
+	
+	height: auto; 
+	width: auto; 
+	/* icon logo should be kept to a 0.809 width:height ratio // 85-105 base ratio*/
+
+	min-height: 260px;
+	min-width: 260px;
+
+	max-height: 260px;
+	max-width: 260px;
+	
+	padding-left: 0px;
+	padding-top: 0px;	
+
+	margin-top: -215px;
+	padding-left: 88px;
+	padding-bottom: 0px;
+
+}
+
+/*#colormation
+{
+	position: relative;
+	width: 300px;
+	height: 10%;
+
+	
+
+	display: block;
+	
+	
+	height: auto; 
+	width: auto; 
+	 icon logo should be kept to a 0.809 width:height ratio // 85-105 base ratio
+
+	min-height: 7.9%;
+	min-width: 80%;
+
+	max-height: 7.9%;
+	max-width: 80%;
+	
+	padding-left: 8%;
+	padding-top: 20px;
+
+}*/
+
+
+
+/******************************************************************************************************/
+
+
+
+
+#clickinstructions
+{
+	
+	width: 50%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 35px;
+	padding-top: 60px;
+	padding-left: 37%
+
+}
+
+
+#scrollbutton
+{
+	background: url("quad_button.png") no-repeat; 
+	position: relative;
+	height: 90px;
+	width: 90px;
+	/*border: 1px solid red; */
+	background-size: 90px;
+	display: inline-block;	
+	padding-left: 1%;
+}
+#scrollbutton:hover
+{
+	background: url("quad_color.png") no-repeat;
+	background-size: 90px;
+}
+
+#scrollbutton2
+{
+	background: url("cell_button.png") no-repeat; 
+	position: relative;
+	height: 90px;
+	width: 90px;
+	/*border: 1px solid red; */
+	background-size: 90px;
+	display: inline-block;	
+	padding-left: 1%;
+
+}
+#scrollbutton2:hover
+{
+	background: url("cell_color.png") no-repeat;
+	background-size: 90px;
+}
+
+#scrollbutton3
+{
+	background: url("os_button.png") no-repeat; 
+	position: relative;
+	height: 90px;
+	width: 90px;
+	/*border: 1px solid red; */
+	background-size: 90px;
+	display: inline-block;
+	padding-left: 1%;		
+}
+#scrollbutton3:hover
+{
+	background: url("os_color.png") no-repeat;
+	background-size: 90px;
+}
+#scrollbutton4
+{
+	background: url("camera_button.png") no-repeat; 
+	position: relative;
+	height: 90px;
+	width: 90px;
+	/*border: 1px solid red; */
+	background-size: 90px;
+	display: inline-block;	
+	padding-left: 1%;	
+}
+#scrollbutton4:hover
+{
+	background: url("camera_color.png") no-repeat;
+	background-size: 90px;
+}
+
+#scrollbutton5
+{
+	background: url("weather_button.png") no-repeat; 
+	position: relative;
+	height: 90px;
+	width: 90px;
+	/*border: 1px solid red; */
+	background-size: 90px;
+	display: inline-block;	
+	padding-left: 1%;	
+}
+#scrollbutton5:hover
+{
+	background: url("weather_color.png") no-repeat;
+	background-size: 90px;
+}
+
+#scrollbutton6
+{
+	background: url("compass_button.png") no-repeat; 
+	position: relative;
+	height: 90px;
+	width: 90px;
+	/*border: 1px solid red; */
+	background-size: 90px;
+	display: inline-block;		
+	padding-left: 1%;
+}
+#scrollbutton6:hover
+{
+	background: url("compass_color.png") no-repeat;
+	background-size: 90px;
+}
+
+#scrollbutton7
+{
+	background: url("vr_button.png") no-repeat; 
+	position: relative;
+	height: 90px;
+	width: 90px;
+	/*border: 1px solid red; */
+	background-size: 90px;
+	display: inline-block;		
+	padding-left: 1%;
+}
+#scrollbutton7:hover
+{
+	background: url("vr_color.png") no-repeat;
+	background-size: 90px;
+}
+
+#scrollbutton8
+{
+	background: url("wifi_button.png") no-repeat; 
+	position: relative;
+	height: 90px;
+	width: 90px;
+	/*border: 1px solid red; */
+	background-size: 90px;
+	display: inline-block;		
+	padding-left: 1%;
+}
+#scrollbutton8:hover
+{
+	background: url("wifi_color.png") no-repeat;
+	background-size: 90px;
+}
+
+#scrollbutton9
+{
+	background: url("tracking_button.png") no-repeat; 
+	position: relative;
+	height: 90px;
+	width: 90px;
+	/*border: 1px solid red; */
+	background-size: 90px;
+	display: inline-block;	
+	padding-left: 1%;	
+}
+#scrollbutton9:hover
+{
+	background: url("tracking_color.png") no-repeat;
+	background-size: 90px;
+}
+
+
+#buttonrow
+{
+	
+	padding-top: 45px;
+	padding-left: 15%;
+
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+#quadtagline
+{
+	width: 120%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 36px;
+	padding-top: 140px;
+	padding-left: 40%;
+	color: #000000;
+}
+#quadtagline2
+{
+	width: 80%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 36px;
+	padding-top: 0px;
+	margin-top: -30px;
+	padding-left: 72.5%;
+	color: #000000;
+}
+
+#celltower
+{
+	position: relative;
+
+	min-height: 280px;
+	min-width: 280px;
+
+	max-height: 280px;
+	max-width: 280px;
+	
+	padding-left: 72%;
+	padding-top: 15px;	
+	padding-bottom: 15px;
+}
+
+#quadtagbody
+{
+	width: 58%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 22px;
+	padding-top: 0px;
+	padding-bottom: 80px;
+	
+	padding-left: 62.0%;
+	color: #000000;
+
+	text-align: justify;
+	
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+#celltagline
+{
+	width: 110%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 36px;
+	padding-top: 260px;
+	margin-bottom: -120px;
+	padding-left: 55.85%;
+	color: #ffffff;
+	background-color: #000000;
+}
+#celltagline2
+{
+	width: 80%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 36px;
+	padding-top: 0px;
+	margin-top: 130px;
+	margin-bottom: -130px;
+	padding-left: 53.5%;
+	color: #ffffff;
+	background-color: #000000;
+}
+
+#celltower2
+{
+	position: relative;
+
+	min-height: 280px;
+	min-width: 280px;
+
+	max-height: 280px;
+	max-width: 280px;
+	
+	padding-left: 17%;
+	padding-top: 15px;	
+	padding-bottom: 15px;
+	margin-top: 23px;
+	margin-bottom: -23px;
+	background-color: #000000;
+}
+
+#celltagbody
+{
+	width: 29%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 22px;
+	padding-top: 0px;
+	padding-bottom: 240px;
+	margin-top: -160px;
+	padding-left: 51.5%;
+	color: #ffffff;
+	background-color: #000000;
+	text-align: justify;
+
+}
+
+#cellwrapper
+{
+	background-color: #000000;
+	width: 186%;
+	overflow: hidden; 
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+#ostagline
+{
+	width: 110%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 36px;
+	padding-top: 260px;
+	margin-bottom: -120px;
+	padding-left: 21%;
+	color: #000000;
+}
+#ostagline2
+{
+	width: 80%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 36px;
+	padding-top: 0px;
+	margin-top: 130px;
+	margin-bottom: -130px;
+	padding-left: 36.5%;
+	color: #000000;
+}
+
+#celltower3
+{
+	position: relative;
+
+	min-height: 280px;
+	min-width: 280px;
+
+	max-height: 280px;
+	max-width: 280px;
+	
+	padding-left: 110%;
+	padding-top: 15px;	
+	padding-bottom: 15px;
+	margin-top: 25px;
+	margin-bottom: -25px;
+	
+}
+
+#ostagbody
+{
+	width: 54%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 22px;
+	padding-top: 0px;
+	padding-bottom: 240px;
+	margin-top: -160px;
+	padding-left: 28%;
+	color: #000000;
+	text-align: justify;
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+#cameratagline
+{
+	width: 110%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 36px;
+	padding-top: 260px;
+	margin-bottom: -120px;
+	padding-left: 50.25%;
+	color: #ffffff;
+	background-color: #000000;
+}
+
+
+#cameratagline2
+{
+	width: 80%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 36px;
+	padding-top: 0px;
+	margin-top: 130px;
+	margin-bottom: -130px;
+	padding-left: 54.5%;
+	color: #ffffff;
+	background-color: #000000;
+}
+
+
+#celltower4
+{
+	position: relative;
+
+	min-height: 280px;
+	min-width: 280px;
+
+	max-height: 280px;
+	max-width: 280px;
+	
+	padding-left: 17%;
+	padding-top: 15px;	
+	padding-bottom: 15px;
+	margin-top: 62px;
+	margin-bottom: -62px;
+	background-color: #000000;
+}
+
+
+#cameratagbody
+{
+	width: 29%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 22px;
+	padding-top: 0px;
+	padding-bottom: 240px;
+	margin-top: -160px;
+	padding-left: 51.5%;
+	color: #ffffff;
+	background-color: #000000;
+	text-align: justify;
+}
+
+#camerawrapper
+{
+	background-color: #000000;
+	width: 186%;
+	overflow: hidden; 
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+#FlightGifTagline
+{
+	width: 120%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 34px;
+	padding-top: 140px;
+	padding-left: 58.4%;
+	color: #000000;
+}
+#FlightGif
+{
+	position: relative;
+
+	min-height: 366px;
+	min-width: 705px;
+
+	max-height: 366px;
+	max-width: 705px;
+	
+	padding-left: 45.2%;
+	padding-top: 55px;	
+	padding-bottom: 205px;
+	margin-top: -45px;
+	margin-bottom: 0px;
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+
+#weathertagline
+{
+	width: 120%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 36px;
+	padding-top: 475px;
+	margin-bottom: -335px;
+	padding-left: 39.5%;
+	color: #ffffff;
+	background-color: #000000;
+}
+
+
+#weathertagline2
+{
+	width: 80%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 36px;
+	padding-top: 0px;
+	margin-top: 342px;
+	margin-bottom: -342px;
+	padding-left: 36.75%;
+	color: #ffffff;
+	background-color: #000000;
+}
+
+
+#celltower5
+{
+	position: relative;
+
+	min-height: 280px;
+	min-width: 280px;
+
+	max-height: 280px;
+	max-width: 280px;
+	
+	padding-left: 39.55%;
+	padding-top: 15px;	
+	padding-bottom: 15px;
+	margin-top: -112px;
+	margin-bottom: 112px;
+	background-color: #000000;
+}
+
+
+#weathertagbody
+{
+	width: 35%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 22px;
+	padding-top: 0px;
+	padding-bottom: 230px;
+	margin-top: 55px;
+	padding-left: 32.2%;
+	color: #ffffff;
+	background-color: #000000;
+	text-align: justify;
+}
+
+#weatherwrapper
+{
+	background-color: #000000;
+	width: 186%;
+	overflow: hidden; 
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+#navtagline
+{
+	width: 110%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 36px;
+	padding-top: 260px;
+	margin-bottom: -120px;
+	padding-left: 31.3%;
+	color: #000000;
+}
+#navtagline2
+{
+	width: 80%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 36px;
+	padding-top: 0px;
+	margin-top: 130px;
+	margin-bottom: -130px;
+	padding-left: 28%;
+	color: #000000;
+}
+
+#celltower6
+{
+	position: relative;
+
+	min-height: 280px;
+	min-width: 280px;
+
+	max-height: 280px;
+	max-width: 280px;
+	
+	padding-left: 110%;
+	padding-top: 15px;	
+	padding-bottom: 15px;
+	margin-top: 50px;
+	margin-bottom: -50px;
+	
+}
+
+#navtagbody
+{
+	width: 54%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 22px;
+	padding-top: 0px;
+	padding-bottom: 240px;
+	margin-top: -160px;
+	padding-left: 28%;
+	color: #000000;
+	text-align: justify;
+}
+
+
+
+
+/******************************************************************************************************/
+
+
+
+
+#vrtagline
+{
+	width: 110%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 36px;
+	padding-top: 260px;
+	margin-bottom: -120px;
+	padding-left: 57.3%;
+	color: #ffffff;
+	background-color: #000000;
+}
+
+
+#vrtagline2
+{
+	width: 80%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 36px;
+	padding-top: 0px;
+	margin-top: 130px;
+	margin-bottom: -130px;
+	padding-left: 50.75%;
+	color: #ffffff;
+	background-color: #000000;
+}
+
+
+#celltower7
+{
+	position: relative;
+
+	min-height: 280px;
+	min-width: 280px;
+
+	max-height: 280px;
+	max-width: 280px;
+	
+	padding-left: 17%;
+	padding-top: 15px;	
+	padding-bottom: 15px;
+	margin-top: 62px;
+	margin-bottom: -62px;
+	background-color: #000000;
+}
+
+
+#vrtagbody
+{
+	width: 26%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 22px;
+	padding-top: 0px;
+	padding-bottom: 240px;
+	margin-top: -160px;
+	padding-left: 52.7%;
+	color: #ffffff;
+	background-color: #000000;
+	text-align: justify;
+}
+
+#vrwrapper
+{
+	background-color: #000000;
+	width: 186%;
+	overflow: hidden; 
+}
+
+
+
+
+/******************************************************************************************************/
+
+
+
+
+#wifitagline
+{
+	width: 110%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 36px;
+	padding-top: 260px;
+	margin-bottom: -120px;
+	padding-left: 42.5%;
+	color: #000000;
+}
+#wifitagline2
+{
+	width: 80%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 36px;
+	padding-top: 0px;
+	margin-top: 130px;
+	margin-bottom: -130px;
+	padding-left: 40.5%;
+	color: #000000;
+}
+
+#celltower8
+{
+	position: relative;
+
+	min-height: 280px;
+	min-width: 280px;
+
+	max-height: 280px;
+	max-width: 280px;
+	
+	padding-left: 110%;
+	padding-top: 15px;	
+	padding-bottom: 15px;
+	margin-top: 50px;
+	margin-bottom: -50px;
+	
+}
+
+#wifitagbody
+{
+	width: 55%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 22px;
+	padding-top: 0px;
+	padding-bottom: 240px;
+	margin-top: -160px;
+	padding-left: 28%;
+	color: #000000;
+	text-align: justify;
+}
+
+
+
+
+/******************************************************************************************************/
+
+
+
+
+#tracktagline
+{
+	width: 120%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 36px;
+	padding-top: 170px;
+	margin-bottom: -30px;
+	padding-left: 38.74%;
+	color: #ffffff;
+	background-color: #000000;
+}
+
+
+#tracktagline2
+{
+	width: 80%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 36px;
+	padding-top: 0px;
+	/*margin-top: 0px;
+	margin-bottom: -0px;*/
+	padding-left: 38.6%;
+	color: #ffffff;
+	background-color: #000000;
+}
+
+
+#celltower9
+{
+	position: relative;
+
+	min-height: 280px;
+	min-width: 280px;
+
+	max-height: 280px;
+	max-width: 280px;
+	
+	padding-left: 39.55%;
+	padding-top: 15px;	
+	padding-bottom: 15px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	background-color: #000000;
+}
+
+
+#tracktagbody
+{
+	width: 48%;
+	font-family: "Futura", Helvetica, sans-serif; 
+	font-size: 22px;
+	padding-top: 0px;
+	padding-bottom: 265px;
+	margin-top: 20px;
+	padding-left: 25.9%;
+	color: #ffffff;
+	background-color: #000000;
+	text-align: justify;
+}
+
+#trackwrapper
+{
+	background-color: #000000;
+	width: 186%;
+	overflow: hidden;
+}
+
+
+/******************************************************************************************************/
+
+
+
+#teambackground
+{
+	background-image: url("team_background_gif.gif");
+	background-size: 100%;
+    background-repeat: no-repeat;
+    /*border: 1px solid red;*/
+	width: 186%;
+	height: 1100px; 
+}
+
+#teambackground a
+{
+	text-decoration: none;
+}
+
+#teambackgroundbutton
+{
+	font-size: 22px;
+	font-family:"Futura", Helvetica, sans-serif;
+	color: #ffffff;
+	
+	/*border: 2px solid #ffffff;*/
+	width: 300px;
+
+	padding-top: 375px;
+	padding-left: 39.25%;
+
+	text-decoration: none;
+
+}
+
+#teambackgroundbutton a
+{
+	text-decoration: none;
+
+}
+
+#teamlink
+{
+	border: 2px solid #ffffff;
+
+	border-radius: 20px;
+	
+	width: 262px;
+	height: 50px;
+	
+	padding-left: 38px;
+	padding-top: 20px;
+}
+
+
+#teamlink:hover
+{
+	opacity: .5; 
+
+}
+
+#teamlink a 
+{
+	text-decoration: none;
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+#endslide
+{
+	color: #ffffff;
+	background-color: #000000;
+	width: 186%;
+	height: 420px;
+	margin-top: -106px;
+	padding-bottom: 96px;
+	
+	position: relative;
+	z-index: 12;
+}
+
+#endinfoshare
+{
+	height: 80px;
+	width: 180px;
+
+	
+
+	position: absolute;
+
+	
+	margin-left: 45.8%;
+	margin-top: 125px;
+
+	font-family:"Futura", Helvetica, sans-serif;
+	font-size: 40px;
+
+
+}
+
+
+
+
+/******************************************************************************************************/
+
+
+
+#sharebuttons
+{
+	
+	position: absolute;
+
+	height: 60px;
+	width: 60px;
+	background-image: url("facebook_share.png");
+	
+	background-size: 100%;
+    background-repeat: no-repeat;
+
+    margin-left: 32.4%;
+    margin-top: 250px;
+}
+
+#sharebuttons2
+{
+	
+	position: absolute;
+
+	height: 60px;
+	width: 60px;
+	background-image: url("twitter_share.png");
+	
+	background-size: 100%;
+    background-repeat: no-repeat;
+
+    margin-left: 40.4%;
+    margin-top: 250px;
+}
+
+#sharebuttons3
+{
+	
+	position: absolute;
+
+	height: 60px;
+	width: 60px;
+	background-image: url("google_share.png");
+	
+	background-size: 100%;
+    background-repeat: no-repeat;
+
+    margin-left: 48.4%;
+    margin-top: 250px;
+}
+
+#sharebuttons4
+{
+	
+	position: absolute;
+
+	height: 60px;
+	width: 60px;
+	background-image: url("linkedin_share.png");
+	
+	background-size: 100%;
+    background-repeat: no-repeat;
+
+    margin-left: 56.4%;
+    margin-top: 250px;
+}
+
+#sharebuttons5
+{
+	
+	position: absolute;
+
+	height: 60px;
+	width: 60px;
+	background-image: url("email_share.png");
+	
+	background-size: 100%;
+    background-repeat: no-repeat;
+
+    margin-left: 64.4%;
+    margin-top: 250px;
+}
+
+
+.socialbutton
+{
+  /* DO NOTHING */
+}
+
+.socialbutton:hover
+{
+	opacity: .5;
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+#copyrightinfo
+{
+
+	position: absolute;
+
+	height: 20px;
+	width: 330px;
+	
+	
+	
+
+    margin-left: 74%;
+    margin-top: 450px;
+
+    font-family:"Futura", Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+span
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************************************************************/
+/******************************************************************************************************/
+/******************************************************************************************************/
+/******************************************************************************************************/
+/******************************************************************************************************/
+/******************************************************************************************************/
+/******************************************************************************************************/
+/******************************************************************************************************/
+
+
+
+
+/*#contentwrapper
+{
+	
+
+}*/
+
+/*#secondsection
+{
+	
+	display: inline-block;
+	background-color: #000000;
+	height: 100%;
+	width: 50%;
+	margin-top: 400px;
+	color: #343567;
+	z-index: 99;
+
+}*/
+
+
+/*#GIFanimation
+{
+	position: relative;
+	min-height: 450px;
+	min-width: 260px;
+	max-height: 450px;
+	max-width: 260px;
+	margin-left: 117%;
+	margin-top: -535px;
+	padding-bottom: 100px ;
+	padding-right: 4px;
+	border: 4px solid;
+	http://i.imgur.com/fphcId2.png
+	<img id="GIFanimation"src="http://i.imgur.com/PS03RO5.png">
+	http://i.imgur.com/iGB7Y0e.png
+	z-index: 90;
+}
+*/
+
+
+
+
+

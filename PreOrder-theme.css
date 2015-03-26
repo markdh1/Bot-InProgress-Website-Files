@@ -1,0 +1,872 @@
+/* Pre-Order Page Style Sheet */
+/******************************************************************************************************/
+/******************************************************************************************************/
+/******************************************************************************************************/
+/******************************************************************************************************/
+
+
+html
+{
+	min-width: 1000px; 
+}
+
+
+body /* Page Body */
+{
+	width: 100%;
+	height: 100%; 
+	margin: auto;
+	height: auto;
+
+
+}
+
+
+#header /* Menu Bar */
+{
+	position: fixed;
+	background-color: #ffffff;
+	color: #000000;
+	
+	opacity: .9;
+
+	width: auto;
+	height: auto;
+
+	min-height: 155px;
+	min-width: 100%;
+
+	z-index: 100;
+}
+
+#boticon
+{
+}
+
+#boticon:hover
+{
+	
+	/*background-image: url("http://i.imgur.com/bcH6J1J.gif");
+	background-repeat: no-repeat;
+	background-size: 60%;*/
+
+}
+
+
+#headingcontent /* Content in Menu Bar */
+{	
+}
+
+
+#headingimage /* The Bot Logo Icon */
+{
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+img
+{
+	position: fixed;
+
+	display: inline-block;
+	
+	height: auto; 
+	width: auto; 
+	/* icon logo should be kept to a 0.809 width:height ratio // 85-105 base ratio*/
+
+	min-height: 145px;
+	min-width: 117px;
+
+	max-height: 145px;
+	max-width: 117px;
+	
+	padding-left: 110px;
+	padding-top: 15px;	
+
+	/*background-image: url("http://i.imgur.com/CDenreI.png");
+	background-repeat: no-repeat;
+	background-size: 100%;*/
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+#menuitems /* The Listed Menu Items */
+{
+	position: static;
+	display: inline-block;
+	font-size: 14px; 
+	font-family: "Trebuchet MS", Helvetica, sans-serif; 
+	padding-left: 40%;
+	padding-top: 4%;
+}
+
+
+table
+{
+	position: absolute;
+	padding-left: 20%;
+}
+
+
+td
+{
+	display: inline-block;
+	padding-left: 8%; 
+}
+
+
+#BetaButton
+{
+	color: #ffffff;
+	background-color: #000000;
+	
+	border-radius: 5px;
+	width: 126px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#BetaButton a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#BetaButton:hover
+{
+	opacity: .5; 
+}
+
+
+#LeftofBetaButton
+{
+	color: #000000;
+	background-color: #ffffff;
+	
+	border-radius: 5px;
+	width: 40px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+
+	margin-left: -20px;
+	margin-right: 20px;
+}
+
+#LeftofBetaButton a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+#LeftofBetaButton:hover
+{
+	opacity: .5; 
+}
+
+
+#FarLeftofBetaButton
+{
+	color: #000000;
+	background-color: #ffffff;
+	
+	border-radius: 5px;
+	width: 100px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	margin-left: -90px;
+	padding-right: 15px;
+
+}
+
+#FarLeftofBetaButton a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+
+#FarLeftofBetaButton:hover
+{
+	opacity: .5;
+}
+
+
+#FartherLeftofBetaButton
+{
+	color: #000000;
+	background-color: #ffffff;
+	
+	border-radius: 5px;
+	width: 100px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	margin-left: -160px;
+	/*padding-right: 100px;*/
+	margin-right: 90px;
+
+	/*border: 2px solid black;*/
+}
+
+#FartherLeftofBetaButton a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+#FartherLeftofBetaButton:hover
+{
+	opacity: .5;
+}
+
+
+#MidofBetaButton
+{
+	color: #000000;
+	background-color: #ffffff;
+	
+	border-radius: 5px;
+	width: 40px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+
+	
+	margin-right: 20px;
+}
+
+#MidofBetaButton a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+#MidofBetaButton:hover
+{
+	opacity: .5;
+}
+
+
+
+/******************************************************************************************************/
+
+#maincontentwrapper
+{	
+}
+
+#firstsection
+{
+}
+
+#orderform
+{
+	width: 50%;
+	height: 1600px;
+
+	margin-left: 25%;
+	margin-top: 170px;
+	
+	position: absolute;
+
+	border-radius: 5px;
+
+	background-color: #000000;
+
+}
+
+
+/******************************************************************************************************/
+
+
+#orderheader p
+{
+	color: #ffffff;
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 30px;
+
+	padding-left: 31.4%;
+}
+
+#orderheaderunderline
+{
+	margin-left: -60%;
+	margin-top: -43px;
+}
+
+
+/******************************************************************************************************/
+
+
+#nameform
+{
+
+}
+
+#namebox
+{
+	margin-left: 14.4%;
+	margin-top: 60px;
+
+}
+
+.mytextname
+{
+	width: 32%;
+	min-width: 500px;
+	height: 70px;
+	font-family: "Futura", Helvetica, sans-serif;
+	outline: none;
+	font-size: 24px;
+	padding-left: 10px;
+
+	background-color: #ffffff;
+
+	border-style: none;
+}
+
+
+/******************************************************************************************************/
+
+
+#emailform
+{
+
+}
+
+#emailbox
+{
+	margin-left: 14.4%;
+	margin-top: 28px;
+
+}
+
+
+/******************************************************************************************************/
+
+
+#creditform
+{
+
+}
+
+#creditbox
+{
+	margin-left: 14.4%;
+	margin-top: 28px;
+
+}
+
+
+/******************************************************************************************************/
+
+
+#monthform
+{
+
+}
+
+#monthbox
+{
+	margin-left: 14.4%;
+	margin-top: 28px;
+
+}
+
+.mytextinfo
+{
+	width: 10%;
+	min-width: 145px;
+	height: 70px;
+	font-family: "Futura", Helvetica, sans-serif;
+	outline: none;
+	font-size: 24px;
+	padding-left: 10px;
+
+	background-color: #ffffff;
+
+	display: inline;
+
+	/*background-image: url("option_arrow.png");
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: right;*/
+
+	border-style: none;
+}
+
+.mytextinfo2
+{
+	width: 10%;
+	min-width: 145px;
+	height: 70px;
+	font-family: "Futura", Helvetica, sans-serif;
+	outline: none;
+	font-size: 24px;
+	padding-left: 10px;
+
+	background-color: #ffffff;
+
+	display: inline;
+
+	margin-left: 17px;
+
+	/*background-image: url("option_arrow.png");
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: right;*/
+
+	border-style: none;
+}
+
+.mytextinfo3
+{
+	width: 10%;
+	min-width: 145px;
+	height: 70px;
+	font-family: "Futura", Helvetica, sans-serif;
+	outline: none;
+	font-size: 24px;
+	padding-left: 10px;
+
+	background-color: #ffffff;
+
+	display: inline;
+
+	margin-left: 17px;
+
+	border-style: none;
+}
+
+/*
+.mytextinfo2:hover
+{
+	opacity: .85;
+}
+
+.mytextinfo:hover
+{
+	opacity: .85;
+}*/
+
+
+
+/******************************************************************************************************/
+
+
+
+#infinityform
+{
+
+}
+
+#infinitybox
+{
+	margin-left: 14.4%;
+	margin-top: 28px;
+
+}
+
+.mytextinfinity
+{
+	width: 32%;
+	min-width: 511px;
+	height: 70px;
+	font-family: "Futura", Helvetica, sans-serif;
+	outline: none;
+	font-size: 24px;
+	padding-left: 10px;
+
+	background-color: #ffffff;
+
+	background-image: url("infinity_option_0.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: right;
+
+	border-style: none;
+}
+
+.mytextinfinity:hover
+{
+	opacity: .85;
+}
+
+
+/******************************************************************************************************/
+
+
+
+#headsetform
+{
+
+}
+
+#headsetbox
+{
+	margin-left: 14.4%;
+	margin-top: 28px;
+
+}
+
+.mytextheadset
+{
+	width: 32%;
+	min-width: 511px;
+	height: 70px;
+	font-family: "Futura", Helvetica, sans-serif;
+	outline: none;
+	font-size: 24px;
+	padding-left: 10px;
+
+	background-color: #ffffff;
+
+	background-image: url("headset_option_0.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: right;
+
+	border-style: none;
+}
+
+.mytextheadset:hover
+{
+	opacity: .85;
+}
+
+
+/******************************************************************************************************/
+
+
+
+#wristbandform
+{
+
+}
+
+#wristbandbox
+{
+	margin-left: 14.4%;
+	margin-top: 28px;
+
+}
+
+.mytextwristband
+{
+	width: 32%;
+	min-width: 511px;
+	height: 70px;
+	font-family: "Futura", Helvetica, sans-serif;
+	outline: none;
+	font-size: 24px;
+	padding-left: 10px;
+
+	background-color: #ffffff;
+
+	background-image: url("wristband_option_0.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: right;
+
+	border-style: none;
+}
+
+.mytextwristband:hover
+{
+	opacity: .85;
+}
+
+
+/******************************************************************************************************/
+
+
+
+#externalform
+{
+
+}
+
+#externalbox
+{
+	margin-left: 14.4%;
+	margin-top: 28px;
+
+}
+
+.mytextexternal
+{
+	width: 32%;
+	min-width: 511px;
+	height: 70px;
+	font-family: "Futura", Helvetica, sans-serif;
+	outline: none;
+	font-size: 24px;
+	padding-left: 10px;
+
+	background-color: #ffffff;
+
+	background-image: url("controller_option_0.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: right;
+
+	border-style: none;
+}
+
+.mytextexternal:hover
+{
+	opacity: .85;
+}
+
+
+/******************************************************************************************************/
+
+
+
+#shippingform
+{
+	color: #ffffff;
+}
+
+#shippingbox
+{
+	margin-left: 14.4%;
+	margin-top: 15px;
+
+	color: #ffffff;
+
+	font-family: "Futura", Helvetica, sans-serif;
+
+	display: inline-block;
+
+
+}
+
+.mytextshipping
+{
+	
+}
+
+span
+{
+	margin-left: 10px;
+	font-size: 13px;
+
+}
+
+
+#ssltext
+{
+	position: absolute;
+
+	/*border: 2px solid white; */
+
+	margin-left: 380px;
+	margin-top: -34.5px;
+
+	width: 100px;
+	background-image: url("ssl_lock.png");
+	background-size: 16px;
+	background-repeat: no-repeat;
+	background-position: left;
+
+	padding-left: 25px;
+
+	font-size: 13px;
+}
+
+
+/******************************************************************************************************/
+
+
+#shippingcost
+{
+	color: #ffffff;
+	margin-left: 14.4%; 
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 25px;
+}
+
+
+#totalcost
+{
+	color: #ffffff;
+	margin-left: 14.4%; 
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 25px;
+}
+
+#ordercostunderline
+{
+	color: #ffffff;
+	margin-left: -15%;
+	
+	margin-top: -15px;
+
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 25px;
+}
+
+
+/******************************************************************************************************/
+
+
+#ordertextbox
+{
+	/*border: 2px solid blue;*/
+	height: 150px;
+}
+
+.shipdateinfo
+{
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 13px;
+	color: #ffffff;
+	text-align: center;
+}
+
+#shipdisclaimer
+{
+	width: 70%;
+	margin-left: 15.3%;
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+#confirmform
+{
+	
+
+	margin-left: 14.4%;
+	margin-top: 28px;
+
+	width: 32%;
+	min-width: 511px;
+	height: 60px;
+	font-family: "Futura", Helvetica, sans-serif;
+
+	background-color: #ffffff;
+
+	text-align: center;
+
+	padding-top: 25px;
+
+	font-size: 26px;
+}
+
+#confirmform:hover
+{
+	opacity: .8; 
+}
+
+
+/******************************************************************************************************/
+
+
+#accessorytext
+{
+	color: #ffffff;
+
+	font-family: "Futura", Helvetica, sans-serif;
+
+	margin-left: 14.4%;
+	margin-top: 23px;
+	margin-bottom: -3px;
+
+}
+
+#purchasertext
+{
+	color: #ffffff;
+
+	font-family: "Futura", Helvetica, sans-serif;
+
+	margin-left: 14.4%;
+	margin-top: 23px;
+	margin-bottom: -35px;
+}
+
+#dronetext
+{
+	color: #ffffff;
+
+	font-family: "Futura", Helvetica, sans-serif;
+
+	margin-left: 14.4%;
+	margin-top: 23px;
+	margin-bottom: -3px;
+
+}
+
+
+#copyrighttext
+{
+	color: #ffffff;
+
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 10px; 
+
+	padding-top: 10px;
+	padding-right: 10px;
+
+	text-align: right;
+	
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

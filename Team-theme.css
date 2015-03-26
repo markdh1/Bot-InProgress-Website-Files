@@ -1,0 +1,422 @@
+/* Team Page Style Sheet */
+/******************************************************************************************************/
+/******************************************************************************************************/
+/******************************************************************************************************/
+/******************************************************************************************************/
+
+
+html
+{
+	min-width: 1000px; 
+}
+
+
+body /* Page Body */
+{
+	width: 100%;
+	height: 100%; 
+	margin: auto;
+	height: auto;
+
+
+}
+
+
+#header /* Menu Bar */
+{
+	position: fixed;
+	background-color: #ffffff;
+	color: #000000;
+	
+	opacity: .9;
+
+	width: auto;
+	height: auto;
+
+	min-height: 155px;
+	min-width: 100%;
+
+	z-index: 100;
+}
+
+#boticon
+{
+}
+
+#boticon:hover
+{
+	
+	/*background-image: url("http://i.imgur.com/bcH6J1J.gif");
+	background-repeat: no-repeat;
+	background-size: 60%;*/
+
+}
+
+
+#headingcontent /* Content in Menu Bar */
+{	
+}
+
+
+#headingimage /* The Bot Logo Icon */
+{
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+img
+{
+	position: fixed;
+
+	display: inline-block;
+	
+	height: auto; 
+	width: auto; 
+	/* icon logo should be kept to a 0.809 width:height ratio // 85-105 base ratio*/
+
+	min-height: 145px;
+	min-width: 117px;
+
+	max-height: 145px;
+	max-width: 117px;
+	
+	padding-left: 110px;
+	padding-top: 15px;	
+
+	/*background-image: url("http://i.imgur.com/CDenreI.png");
+	background-repeat: no-repeat;
+	background-size: 100%;*/
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+#menuitems /* The Listed Menu Items */
+{
+	position: static;
+	display: inline-block;
+	font-size: 14px; 
+	font-family: "Trebuchet MS", Helvetica, sans-serif; 
+	padding-left: 40%;
+	padding-top: 4%;
+}
+
+
+table
+{
+	position: absolute;
+	padding-left: 20%;
+}
+
+
+td
+{
+	display: inline-block;
+	padding-left: 8%; 
+}
+
+
+#BetaButton
+{
+	color: #ffffff;
+	background-color: #000000;
+	
+	border-radius: 5px;
+	width: 126px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#BetaButton a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#BetaButton:hover
+{
+	opacity: .5; 
+}
+
+
+#LeftofBetaButton
+{
+	color: #000000;
+	background-color: #ffffff;
+	
+	border-radius: 5px;
+	width: 40px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+
+	margin-left: -20px;
+	margin-right: 20px;
+}
+
+#LeftofBetaButton a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+#LeftofBetaButton:hover
+{
+	opacity: .5; 
+}
+
+
+#FarLeftofBetaButton
+{
+	color: #000000;
+	background-color: #ffffff;
+	
+	border-radius: 5px;
+	width: 100px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	margin-left: -90px;
+	padding-right: 15px;
+
+}
+
+#FarLeftofBetaButton a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+
+#FarLeftofBetaButton:hover
+{
+	opacity: .5;
+}
+
+
+#FartherLeftofBetaButton
+{
+	color: #000000;
+	background-color: #ffffff;
+	
+	border-radius: 5px;
+	width: 100px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	margin-left: -160px;
+	/*padding-right: 100px;*/
+	margin-right: 90px;
+
+	/*border: 2px solid black;*/
+}
+
+#FartherLeftofBetaButton a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+#FartherLeftofBetaButton:hover
+{
+	opacity: .5;
+}
+
+
+#MidofBetaButton
+{
+	color: #000000;
+	background-color: #ffffff;
+	
+	border-radius: 5px;
+	width: 40px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+
+	
+	margin-right: 20px;
+}
+
+#MidofBetaButton a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+#MidofBetaButton:hover
+{
+	opacity: .5;
+}
+
+
+
+
+/******************************************************************************************************/
+/******************************************************************************************************/
+
+
+#maincontentwrapper
+{	
+}
+
+#firstsection
+{
+
+}
+
+
+/******************************************************************************************************/
+
+
+#teamtitle
+{
+	
+	width: 100%;
+	height: 220px;
+
+	margin-top: 170px;
+	
+	position: absolute;
+
+	/*border: 1px solid black; */
+
+	background-image: url("team_title_text.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: center;
+
+
+	
+}
+
+
+#teamdescribe
+{
+	width: 90%;
+	height: 230px;
+	
+	position: absolute;
+	margin-top: 440px; 
+
+	/*border: 2px solid red;*/ 
+
+	margin-left: 6%;
+
+	background-image: url("team_summary.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: center;
+}
+
+
+/******************************************************************************************************/
+
+#iansection
+{
+	 
+
+	height: 920px;
+	width: 100%;
+
+	position: absolute;
+
+	margin-top: 950px;
+
+	background-color: #000000;
+
+	background-image: url("ian_summary_block.png");
+	background-repeat: no-repeat;
+	background-size: 90%;
+	background-position: center;
+}
+
+#wyattsection
+{
+	height: 920px;
+	width: 100%;
+
+	position: absolute;
+
+	margin-top: 1870px;
+
+	/*border: 2px solid red;*/ 
+
+	background-color: #ffffff;
+
+	background-image: url("wyatt_summary_block.png");
+	background-repeat: no-repeat;
+	background-size: 90%;
+	background-position: center;
+}
+
+/******************************************************************************************************/
+
+
+#joinsection
+{
+	height: 920px;
+	width: 100%;
+
+	position: absolute;
+
+	margin-top: 2840px;
+
+	/*border: 2px solid red; */
+
+	background-color: #ffffff;
+
+	background-image: url("jointeam_summary_block.jpg");
+	background-repeat: no-repeat;
+	background-size: 115%;
+	background-position: center;
+}
+
+#joinbutton
+{
+	height: 100px;
+	width: 300px;
+
+	position: absolute;
+
+	margin-top: 600px;
+	margin-left: 39.9%;
+
+	
+
+	background-image: url("joinus_button.png");
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: center;
+
+}
+
+#joinbutton:hover
+{
+	opacity: .4; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

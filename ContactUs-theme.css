@@ -1,0 +1,563 @@
+/* Contact Us Page Style Sheet */
+/******************************************************************************************************/
+/******************************************************************************************************/
+/******************************************************************************************************/
+/******************************************************************************************************/
+
+
+html
+{
+	min-width: 1000px; 
+}
+
+
+body /* Page Body */
+{
+	width: 100%;
+	height: 100%; 
+	margin: auto;
+	height: auto;	
+}
+
+
+#header /* Menu Bar */
+{
+	position: fixed;
+	background-color: #ffffff;
+	color: #000000;
+	
+	opacity: .9;
+
+	width: auto;
+	height: auto;
+
+	min-height: 155px;
+	min-width: 100%;
+
+	z-index: 100;
+}
+
+#boticon
+{
+}
+
+#boticon:hover
+{
+	
+	/*background-image: url("http://i.imgur.com/bcH6J1J.gif");
+	background-repeat: no-repeat;
+	background-size: 60%;*/
+
+}
+
+
+#headingcontent /* Content in Menu Bar */
+{	
+}
+
+
+#headingimage /* The Bot Logo Icon */
+{
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+img
+{
+	position: fixed;
+
+	display: inline-block;
+	
+	height: auto; 
+	width: auto; 
+	/* icon logo should be kept to a 0.809 width:height ratio // 85-105 base ratio*/
+
+	min-height: 145px;
+	min-width: 117px;
+
+	max-height: 145px;
+	max-width: 117px;
+	
+	padding-left: 110px;
+	padding-top: 15px;	
+
+	/*background-image: url("http://i.imgur.com/CDenreI.png");
+	background-repeat: no-repeat;
+	background-size: 100%;*/
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+#menuitems /* The Listed Menu Items */
+{
+	position: static;
+	display: inline-block;
+	font-size: 14px; 
+	font-family: "Trebuchet MS", Helvetica, sans-serif; 
+	padding-left: 40%;
+	padding-top: 4%;
+}
+
+
+table
+{
+	position: absolute;
+	padding-left: 20%;
+}
+
+
+td
+{
+	display: inline-block;
+	padding-left: 8%; 
+}
+
+
+#BetaButton
+{
+	color: #ffffff;
+	background-color: #000000;
+	
+	border-radius: 5px;
+	width: 126px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#BetaButton a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#BetaButton:hover
+{
+	opacity: .5; 
+}
+
+
+#LeftofBetaButton
+{
+	color: #000000;
+	background-color: #ffffff;
+	
+	border-radius: 5px;
+	width: 40px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+
+	margin-left: -20px;
+	margin-right: 20px;
+}
+
+#LeftofBetaButton a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+#LeftofBetaButton:hover
+{
+	opacity: .5; 
+}
+
+
+#FarLeftofBetaButton
+{
+	color: #000000;
+	background-color: #ffffff;
+	
+	border-radius: 5px;
+	width: 100px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	margin-left: -90px;
+	padding-right: 15px;
+
+}
+
+#FarLeftofBetaButton a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+
+#FarLeftofBetaButton:hover
+{
+	opacity: .5;
+}
+
+
+#FartherLeftofBetaButton
+{
+	color: #000000;
+	background-color: #ffffff;
+	
+	border-radius: 5px;
+	width: 100px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	margin-left: -160px;
+	/*padding-right: 100px;*/
+	margin-right: 90px;
+
+	/*border: 2px solid black;*/
+}
+
+#FartherLeftofBetaButton a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+#FartherLeftofBetaButton:hover
+{
+	opacity: .5;
+}
+
+
+#MidofBetaButton
+{
+	color: #000000;
+	background-color: #ffffff;
+	
+	border-radius: 5px;
+	width: 40px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+
+	
+	margin-right: 20px;
+}
+
+#MidofBetaButton a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+#MidofBetaButton:hover
+{
+	opacity: .5;
+}
+
+/******************************************************************************************************/
+/******************************************************************************************************/
+/******************************************************************************************************/
+
+
+
+#ContactMessage
+{
+	padding-top: 180px;
+	padding-left: 23%;	
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 23px;
+}
+
+
+#ContactMessageParagraph
+{
+	font-size: 14px;
+	width: 35%;
+	min-width: 35%;
+	max-width: 35%;
+
+
+}
+
+
+/******************************************************************************************************/
+
+
+
+#NameMessage
+{
+	padding-top: 10px;
+	padding-left: 23%;	
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 17px;
+}
+
+
+#subNameMessage
+{
+	font-size: 13px;
+	display: inline;
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+#namebox
+{
+	padding-left: 23%;	
+	margin-top: -5px;
+}
+
+.mytextname
+{
+	width: 32%;
+	min-width: 350px;
+	height: 30px;
+	font-family: "Futura", Helvetica, sans-serif;
+	outline: none;
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+
+
+/******************************************************************************************************/
+
+
+#EmailMessage
+{
+	padding-top: 0px;
+	padding-left: 23%;	
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 17px;
+}
+
+
+#subNameMessage
+{
+	font-size: 13px;
+	display: inline;
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+#emailbox
+{
+	padding-left: 23%;	
+	margin-top: -5px;
+}
+
+
+
+/******************************************************************************************************/
+
+
+#SubjectMessage
+{
+	padding-top: 0px;
+	padding-left: 23%;	
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 17px;
+}
+
+
+
+/******************************************************************************************************/
+
+
+
+#subjectbox
+{
+	padding-left: 23%;	
+	margin-top: -5px;
+}
+
+
+
+/******************************************************************************************************/
+
+#BoxMessage
+{
+	padding-top: 0px;
+	padding-left: 23%;	
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 17px;
+}
+
+
+/******************************************************************************************************/
+
+
+#messagebox
+{
+	padding-left: 23%;	
+	margin-top: -5px;
+}
+
+
+.mymessage
+{
+	width: 32%;
+	min-width: 350px;
+	height: 150px;
+	font-family: "Futura", Helvetica, sans-serif;
+	outline: none;
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+
+/******************************************************************************************************/
+
+
+button
+{
+	margin-left: 23%;
+	margin-top: 5px;
+	
+	height: 35px;
+	width: 70px;
+	
+	background-color: #000000;
+	color: #ffffff;
+	
+	border-style: none;
+
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 15px;
+
+}
+
+button:hover
+{
+	opacity: .5;
+}
+
+
+
+/******************************************************************************************************/
+
+
+#copyright
+{
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 10px;
+
+	padding-left: 80%;
+	padding-top: 10px;
+}
+
+
+
+/******************************************************************************************************/
+
+aside
+{
+	margin-left: 57%;
+	margin-top: -630px;
+}
+
+#emailinfo
+{
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+#emaildata
+{
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+
+#emaildata:hover
+{
+	opacity: .5;
+}
+
+#phonedata
+{
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+
+#phonedata:hover
+{
+	opacity: .99;
+}
+
+#socialdata
+{
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.sociallink:hover
+{
+	opacity: .5;
+}
+
+
+.textdivider
+{
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+
+.textdividershadow
+{
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 13px;
+	color: gray;
+	margin-top: -29px;
+	opacity: .5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
